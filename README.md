@@ -33,7 +33,7 @@ Brotherhood/桃園結義/义结金兰 | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):1CE4:
 Chain Stratagem/連環計/连环计 | `\b15:\w{8}:(?<name>[a-zA-Z\-' ]+):1D0C:` | 120
 Embolden/エンボルデン/鼓励 | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):1D60:` | 120
 Dragon Sight/ドラゴンサイト/巨龙视线 | `\b15:\w{8}:(?<name>[a-zA-Z\-' ]+):1CE6:` | 120
-Technical Step/テクニカルステップ | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):3F4(1|2|3|4):` | 120
+Technical Step/テクニカルステップ | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):3F4[1-4]:` | 120
 Divination/ディヴィネーション | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):40A8:` |  180
 Battle Voice/バトルボイス/战斗之声 | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):76:` | 180
 Battle Litany/バトルリタニー/战斗连祷  | `\b16:\w{8}:(?<name>[a-zA-Z\-' ]+):DE5:` | 180
