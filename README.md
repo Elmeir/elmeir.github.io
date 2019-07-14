@@ -24,7 +24,13 @@ SkillDisplay | `https://rawrington.github.io/SkillDisplay/` | WebSocket
 
 ### Tool
 
-[DFAssist](https://raw.githubusercontent.com/Elmeir/elmeir.github.io/master/tool/DFAssist.zip)
+Tool | URL | Remark
+------------ | ------------- | -------------
+DFAssist | [DFAssist_download](https://raw.githubusercontent.com/Elmeir/elmeir.github.io/master/tool/DFAssist.zip)
+ZoomHack | [https://github.com/jayotterbein/FFXIV-Zoom-Hack](https://github.com/jayotterbein/FFXIV-Zoom-Hack)
+TexTools | [https://github.com/liinko/FFXIV_TexTools2](https://github.com/liinko/FFXIV_TexTools2)
+xivapp | [https://github.com/FFXIVAPP/ffxivapp](https://github.com/FFXIVAPP/ffxivapp)
+TBbard | [https://github.com/isalin/TBbard](https://github.com/isalin/TBbard)
 
 ### Trigger
 
