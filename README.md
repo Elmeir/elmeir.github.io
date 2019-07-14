@@ -24,6 +24,8 @@ SkillDisplay | `https://rawrington.github.io/SkillDisplay/` | WebSocket
 
 ### Trigger
 
+[下载示例](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Elmeir/elmeir.github.io/tree/master/spespe)
+
 #### raid buff
 
 Action | Reg | Recast
@@ -39,11 +41,12 @@ Battle Voice/バトルボイス/战斗之声 | `\b16:[0-9a-fA-F]{8}:(?<name>[a-z
 Battle Litany/バトルリタニー/战斗连祷  | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):DE5:` | 180
 Aetherpact/エーテルパクト/以太契约 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CFF:` | 180
 
+
+
 #### others
 
 Action | Reg | Recast
 ------------ | ------------- | -------------
 Swiftcast/迅速魔/即刻咏唱 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D89:` | 60
-
 
 ![Image](src)
