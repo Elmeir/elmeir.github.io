@@ -28,7 +28,7 @@ SkillDisplay | `https://rawrington.github.io/SkillDisplay/` | WebSocket
 
 ### Trigger
 
-[example(xml for spespe)](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Elmeir/elmeir.github.io/tree/master/spespe)
+[example(xml for spespe)](https://raw.githubusercontent.com/Elmeir/elmeir.github.io/master/trigger/spespe.zip)
 
 raid buff | Reg | Recast
 ------------ | ------------- | -------------
