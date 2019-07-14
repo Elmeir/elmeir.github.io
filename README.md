@@ -22,13 +22,15 @@ horiz | `https://bsides.github.io/horizoverlay/#/`
 Ikegami | `https://idyllshi.re/ikegami/`
 SkillDisplay | `https://rawrington.github.io/SkillDisplay/` | WebSocket
 
+### Tool
+
+[DFAssist](https://raw.githubusercontent.com/Elmeir/elmeir.github.io/master/tool/DFAssist.zip)
+
 ### Trigger
 
 [example(xml for spespe)](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Elmeir/elmeir.github.io/tree/master/spespe)
 
-#### raid buff
-
-Action | Reg | Recast
+raid buff | Reg | Recast
 ------------ | ------------- | -------------
 Trick Attack/だまし討ち/攻其不备 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):8D2:` | 60
 Brotherhood/桃園結義/义结金兰 | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE4:` | 90
@@ -41,11 +43,7 @@ Battle Voice/バトルボイス/战斗之声 | `\b16:[0-9a-fA-F]{8}:(?<name>[a-z
 Battle Litany/バトルリタニー/战斗连祷  | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):DE5:` | 180
 Aetherpact/エーテルパクト/以太契约 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CFF:` | 180
 
-
-
-#### others
-
-Action | Reg | Recast
+others | Reg | Recast
 ------------ | ------------- | -------------
 Swiftcast/迅速魔/即刻咏唱 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D89:` | 60
 
