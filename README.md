@@ -24,7 +24,7 @@ SkillDisplay | `https://rawrington.github.io/SkillDisplay/` | WebSocket
 
 ### Trigger
 
-[下载示例](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Elmeir/elmeir.github.io/tree/master/spespe)
+[下载示例(spespe导入xml)](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Elmeir/elmeir.github.io/tree/master/spespe)
 
 #### raid buff
 
