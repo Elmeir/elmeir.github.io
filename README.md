@@ -39,19 +39,19 @@ TBbard | [https://github.com/isalin/TBbard](https://github.com/isalin/TBbard)
 
 raid buff | Reg | Recast
 ------------ | ------------- | -------------
-Trick Attack/だまし討ち/攻其不备 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):8D2:` | 60
-Brotherhood/桃園結義/义结金兰 | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE4:` | 90
-Chain Stratagem/連環計/连环计 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D0C:` | 120
-Embolden/エンボルデン/鼓励 | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D60:` | 120
-Dragon Sight/ドラゴンサイト/巨龙视线 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE6:` | 120
-Technical Step/テクニカルステップ | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):3F4[1-4]:` | 120
-Divination/ディヴィネーション | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):40A8:` |  180
-Battle Voice/バトルボイス/战斗之声 | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):76:` | 180
-Battle Litany/バトルリタニー/战斗连祷  | `\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):DE5:` | 180
-Aetherpact/エーテルパクト/以太契约 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CFF:` | 180
+Trick Attack/だまし討ち/攻其不备 | `^\[[0-9.:]{12}\] 15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):8D2:` | 60
+Brotherhood/桃園結義/义结金兰 | `^\[[0-9.:]{12}\] 16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE4:` | 90
+Chain Stratagem/連環計/连环计 | `^\[[0-9.:]{12}\] 15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D0C:` | 120
+Embolden/エンボルデン/鼓励 | `^\[[0-9.:]{12}\] 16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D60:` | 120
+Dragon Sight/ドラゴンサイト/巨龙视线 | `^\[[0-9.:]{12}\] 15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE6:` | 120
+Technical Step/テクニカルステップ | `^\[[0-9.:]{12}\] 16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):3F4[1-4]:` | 120
+Divination/ディヴィネーション | `^\[[0-9.:]{12}\] 16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):40A8:` |  180
+Battle Voice/バトルボイス/战斗之声 | `^\[[0-9.:]{12}\] 16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):76:` | 180
+Battle Litany/バトルリタニー/战斗连祷  | `^\[[0-9.:]{12}\] 16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):DE5:` | 180
+Aetherpact/エーテルパクト/以太契约 | `^\[[0-9.:]{12}\] 15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CFF:` | 180
 
 others | Reg | Recast
 ------------ | ------------- | -------------
-Swiftcast/迅速魔/即刻咏唱 | `\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D89:` | 60
+Swiftcast/迅速魔/即刻咏唱 | `^\[[0-9.:]{12}\] 15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D89:` | 60
 
 ![Image](src)
