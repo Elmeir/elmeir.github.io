@@ -1,4 +1,9 @@
-### ACT Plugin 5.0
+### 素粉攻略手册
+
+希望之伊甸园：[エデン攻略手帳](https://docs.google.com/spreadsheets/d/1HDur0rYA7aR3xIrbWUqXD31IByDJ3ZLV-p5J-r_G6cw/edit?usp=sharing)
+
+
+### ACT Plugin and overlay 5.0
 
 Plugin | URL | Remark
 ------------ | ------------- | -------------
@@ -11,8 +16,6 @@ ACTWebSocket | [https://github.com/ZCube/ACTWebSocket](https://github.com/ZCube/
 Cactbot | [https://github.com/quisquous/cactbot](https://github.com/quisquous/cactbot)
 Kagami | [https://github.com/anoyetta-academy/kagami](https://github.com/anoyetta-academy/kagami)
 Discord Triggers | [https://github.com/Makar8000/ACT-Discord-Triggers](https://github.com/Makar8000/ACT-Discord-Triggers)
-
-### Overlay
 
 Overlay | URL | Remark
 ------------ | ------------- | -------------
