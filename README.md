@@ -13,7 +13,7 @@ Plugin | URL | Remark
 ------------ | ------------- | -------------
 ACT | [https://advancedcombattracker.com/download.php](https://advancedcombattracker.com/download.php)
 Parsing | [https://github.com/ravahn/FFXIV_ACT_Plugin](https://github.com/ravahn/FFXIV_ACT_Plugin)
-Overlay | [https://github.com/ngld/OverlayPlugin](https://https://github.com/ngld/OverlayPlugin)
+Overlay | [https://github.com/ngld/OverlayPlugin](https://github.com/ngld/OverlayPlugin)
 Hojoring| [https://github.com/anoyetta/ACT.Hojoring](https://github.com/anoyetta/ACT.Hojoring)
 Triggernometry | [https://github.com/paissaheavyindustries/Triggernometry](https://github.com/paissaheavyindustries/Triggernometry)
 ACTWebSocket | [https://github.com/ZCube/ACTWebSocket](https://github.com/ZCube/ACTWebSocket)
