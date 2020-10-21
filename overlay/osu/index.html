@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" />
 <title>elmeir-osu</title>
 
 <!-- see https://www.fontsquirrel.com/fonts/aller for the osu font -->
@@ -20,7 +20,7 @@ body, html {
 }
 
 html {
-	background-image: url('handle.png');
+	background-image: url('images/handle.png');
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	box-sizing: border-box;
@@ -174,7 +174,7 @@ html {
 }
 
 </style>
-
+    <script src="https://ngld.github.io/OverlayPlugin/assets/shared/common.min.js"></script>
 <script>
 	var dataset = [];
 	var setting = {};
@@ -186,7 +186,7 @@ html {
 	// STUFF THAT CAN BE CONFIGURED BY THE USER GOES HERE
 	
 	setting.flashEnabled = true;	// Set to false to disable flash
-	setting.maxDisplay = 9;			// Number of rows to display
+	setting.maxDisplay = 8;			// Number of rows to display
 	setting.transitionTime = 5;		// Rank animation time, lower = shorter
 	setting.fps = 60;				// Drawing fps
 	
@@ -224,10 +224,25 @@ html {
 		//
 		// 以下表示用スクリプト
 		//
-		// onOverlayDataUpdate イベントを購読
-		document.addEventListener("onOverlayDataUpdate", function (e) {
-			update(e.detail);
-		});
+        // onOverlayStateUpdate イベントを購読
+        document.addEventListener("onOverlayStateUpdate", function (e) {
+            if (!e.detail.isLocked) {
+                displayResizeHandle();
+            } else {
+                hideResizeHandle();
+            }
+        });
+
+        function displayResizeHandle() {
+            document.documentElement.classList.add("resizeHandle");
+        }
+
+        function hideResizeHandle() {
+            document.documentElement.classList.remove("resizeHandle");
+        }
+        // CombatData イベントを購読
+        addOverlayListener("CombatData", (e) => update(e));
+        startOverlayEvents();
 
 		var ranking = new Array(); // TODO give this var a better name
 		var prevRank;
@@ -409,7 +424,8 @@ html {
 				} else {
 				var imgurl = "error";
 				}
-				box.innerHTML = "<img src='" + imgurl + "_Solid.png'/>"; 
+				
+				box.innerHTML = " <img src='resources/icon/Job/" + imgurl + "_Solid.png' />"; 
 				box.innerHTML += "<div class='playerName" + ((i == myRank)?" me":"") + "'>" + processName(ranking[i].name) + "</div><br>";
 				
 				// writing the deeps or damage
