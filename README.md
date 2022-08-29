@@ -7,7 +7,7 @@
 俺Tools：[俺Tools](https://ffxiv.es.exdreams.net/)
 
 
-### ACT Plugin and overlay 5.0
+### ACT Plugins and Overlay
 
 Plugin | URL | Remark
 ------------ | ------------- | -------------
@@ -32,11 +32,10 @@ SkillDisplay | `https://rawrington.github.io/SkillDisplay/` | WebSocket
 Ember | `https://github.com/GoldenChrysus/ffxiv-ember-overlay/`
 Cmskin | `https://github.com/canisminor1990/ffxiv-cmskin/`
 
-### Tool
+### Tools
 
 Tool | URL | Remark
 ------------ | ------------- | -------------
-DFAssist | [DFAssist_download](https://raw.githubusercontent.com/Elmeir/elmeir.github.io/master/tool/DFAssist.zip)
 ZoomHack | [https://github.com/jayotterbein/FFXIV-Zoom-Hack](https://github.com/jayotterbein/FFXIV-Zoom-Hack)
 TexTools | [https://github.com/liinko/FFXIV_TexTools2](https://github.com/liinko/FFXIV_TexTools2)
 DataExplorer | [http://ffxivexplorer.fragmenterworks.com/index.php](http://ffxivexplorer.fragmenterworks.com/index.php)
@@ -44,26 +43,3 @@ xivapp | [https://github.com/FFXIVAPP/ffxivapp](https://github.com/FFXIVAPP/ffxi
 TBbard | [https://github.com/isalin/TBbard](https://github.com/isalin/TBbard)
 XIVNote | [https://github.com/anoyetta/XIVNote](https://github.com/anoyetta/XIVNote)
 Sapphire | [https://github.com/SapphireServer/Sapphire](https://github.com/SapphireServer/Sapphire)
-
-### Trigger
-
-[example(xml for spespe)](https://raw.githubusercontent.com/Elmeir/elmeir.github.io/master/trigger/spespe.zip)
-
-raid buff | Reg | Recast
------------- | ------------- | -------------
-Trick Attack/だまし討ち/攻其不备 | `^\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):8D2:` | 60
-Brotherhood/桃園結義/义结金兰 | `^\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE4:` | 90
-Chain Stratagem/連環計/连环计 | `^\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D0C:` | 120
-Embolden/エンボルデン/鼓励 | `^\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D60:` | 120
-Dragon Sight/ドラゴンサイト/巨龙视线 | `^\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CE6:` | 120
-Technical Step/テクニカルステップ | `^\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):3F4[1-4]:` | 120
-Divination/ディヴィネーション | `^\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):40A8:` |  180
-Battle Voice/バトルボイス/战斗之声 | `^\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):76:` | 180
-Battle Litany/バトルリタニー/战斗连祷  | `^\b16:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):DE5:` | 180
-Aetherpact/エーテルパクト/以太契约 | `^\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1CFF:` | 180
-
-others | Reg | Recast
------------- | ------------- | -------------
-Swiftcast/迅速魔/即刻咏唱 | `^\b15:[0-9a-fA-F]{8}:(?<name>[a-zA-Z\-' ]+):1D89:` | 60
-
-![Image](src)
