@@ -1,0 +1,4 @@
+# 源码目录：GitHub 上只发布 blog/ 下的混淆产物，sch_blog 为原始工程，不入库
+/blog/sch_blog/
+
+node_modules/
