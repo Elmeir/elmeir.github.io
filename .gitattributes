@@ -1,0 +1,12 @@
+# 行尾统一：Markdown 一律以 LF 入库、以 LF 检出
+#
+# 起因：仓库的 core.autocrlf=true，而 articles/11~18.md 是在 Windows 下
+# 保存的（CRLF）。于是工作区 4616 B、仓库与线上 4553 B，每篇的本地字节
+# 数比线上多出「行数」个字节（11.md 多 46、18.md 多 63），排查时极易被
+# 误读成内容差异。
+#
+# 加上 eol=lf 后行为确定：任何机器上检出都是 LF，不再随本机的
+# autocrlf 设置漂移。注意 .gitignore 已排除 sch_blog/（源码不入
+# 库），本规则实际只作用于 blog/articles/*.md 产物 —— 它们由构建
+# 从源码复制而来，行尾随源码，靠 git 的规范化在入库这一步收口。
+*.md text eol=lf
